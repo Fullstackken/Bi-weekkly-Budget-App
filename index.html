@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav class="navbar"><div class="navbar-title">Budget Bi-Weekly Checks</div></nav>
+        <div class="jumbo">
+            <div class="current-balance">
+                <div class="current-balance-title">Current Balance  <div class="current-balance-title-number">$1445.00</div></div>
+            </div>
+            <div class="current-check-balance">
+                <div class="current-check-balance-title">Current Check Balance<button 
+                    onclick="currentCheckUpdate()" class="current-check-balance-income">$2200.00</button><button class="current-check-balance-spending">$700.00</button></div>
+                   
+            </div>
+            <pre id="edit-spending-area"></pre>
+            <div class="pervious-check-balance">
+                <div class="pervious-check-balance-title">Pervious Check Balance<div class="pervious-check-balance-income">$2400.00</div><div class="pervious-check-balance-spending">$760.00</div></div>
+            </div>
+        </div>
+        <script src="./functions.js"></script>
+    </body>
+</html>

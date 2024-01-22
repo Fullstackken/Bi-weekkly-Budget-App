@@ -1,0 +1,133 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #0d0d0d;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-title {
+    text-align: center;
+    
+}
+
+.jumbo {
+    
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;;
+}
+
+.current-balance {
+    width: 90%;
+    min-height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color:#F2F2F2;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.current-balance-title {
+    display: inline;
+    color:#8C8C8C;
+}
+.current-balance-title-number {
+    display: inline;
+    float: right;
+    background-color: #26168C;
+    padding: 18px;
+    border-radius: 5px;
+    color:#F8F0E3;;
+}
+
+.current-check-balance {
+    width: 90%;
+    min-height: 175px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    color:#F8F0E3;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.current-check-balance-title {
+    color: #8C8C8C;
+}
+.current-check-balance-income {
+    display: inline;
+    float: right;
+    background-color: #038C4C;
+    padding: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.current-check-balance-spending {
+    display: inline;
+    float: right;
+    background-color: #26168C;
+    padding: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.pervious-check-balance {
+    width: 90%;
+    min-height: 175px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    color:#8C8C8C;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.pervious-check-balance-title {
+    color:#8C8C8C;
+}
+
+.pervious-check-balance-income {
+    display: inline;
+    float: right;
+    background-color: #038C4C;
+    padding: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.pervious-check-balance-spending {
+    display: inline;
+    float: right;
+    background-color: #26168C;
+    padding: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.edit-spending-area {
+    color: black;
+    font-size: 20px;
+}
+
+#spending-form {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color:#8C8C8C;
+}
