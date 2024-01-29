@@ -1,30 +1,24 @@
 
 
-//current-check-balance-title-number button; onClick
-
-   
-
-
-    function currentCheckUpdate(){
+function spendingForm(){
+    const spendingFormInputs = `
+    <form>
+          <label>Location</label>
+          <input class="">
         
-        let helloTitle = `
-        <form id="spending-form">
-        <label for="fname">Store/Purchase Made:</label><br>
-        <input type="text" id="store" name="store" value=""><br>
-        <label for="lname">Amount:</label><br>
-        <input type="text" id="amount" name="amount" value=""><br><br>
-        <button id="btn-form" type="submit" onClick="formClosed()">Update</button>
-        </form> 
+          <label>Amount</label>
+          <input class="">
+        
+        <button class="btn" onclick="clearSpending()">Submit</button>
+    </form>
+    `
 
-        `;
-        document.getElementById('edit-spending-area').innerHTML = helloTitle;
-    
-        console.log("hmmmm....");
+    document.getElementById('spending-form').innerHTML = spendingFormInputs;
 
-    }
+    console.log("yes, it work!")
+}
 
 
-    function formClosed() {
-        let helloTitle = ``;
-        document.getElementById('edit-spending-area').innerHTML = helloTitle;
-    }
+function clearSpending(){
+    document.getElementById('spending-form').innerHTML = " ";
+}
