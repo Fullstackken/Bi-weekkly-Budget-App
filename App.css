@@ -1,0 +1,65 @@
+.card {
+  min-height: 75px;
+}
+
+#rent-title{
+  display: inline;
+}
+
+#rent-total {
+  display: inline;
+  float: right;
+}
+
+#auto-insurance-title {
+  display: inline;
+
+}
+
+#auto-insurance-total {
+  display: inline;
+  float: right;
+}
+
+#phone-bill-title {
+  display: inline;
+}
+#phone-bill-total{
+  display: inline;
+  float: right;
+}
+#home-internet-title{
+  display: inline;
+}
+#home-internet-total{
+  display:inline;
+  float: right;
+}
+
+#gym-title {
+  display: inline;
+}
+#gym-total{
+  display: inline;
+  float: right;
+}
+
+#paid-date {
+  float: right;
+}
+
+#paid-date-auto {
+  float: right;
+}
+
+#paid-date-gym {
+  float: right;
+}
+
+#paid-date-google-fi{
+  float: right;
+}
+
+#paid-date-internet {
+  float: right;
+}
